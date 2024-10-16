@@ -1,0 +1,438 @@
+/*Globale Site*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #DFDFDF;
+}
+.container {
+  width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+/* End Globale Site*/
+.task {
+  overflow: hidden;
+}
+/*Start fram-work-grid*/
+.grid {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.col-1 {
+  width: calc((1 * 100%) /12)
+}
+.col-2 {
+  width: calc((2 * 100%) /12)
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: calc((4 * 100%) /12)
+}
+.col-5 {
+  width: calc((5 * 100%) /12)
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: calc((7 * 100%) /12)
+}
+.col-8 {
+  width: calc((8 * 100%) /12)
+}
+.col-9 {
+  width: calc((9 * 100%) /12)
+}
+.col-10 {
+  width: calc((10 * 100%) /12)
+}
+.col-11 {
+  width: calc((11 * 100%) /12)
+}
+.col-12 {
+  width: 100%;
+}
+.widget {
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-bottom: 15px
+}
+.radius {
+  border-radius: 7px;
+}
+.fl-left {
+  float: left;
+}
+.fl-right {
+  float: right;
+}
+.padding-left {
+  padding-left: 5px;
+}
+.padding-right {
+  padding-right: 5px;
+}
+/*Emd fram-work-grid*/
+/*Start Design Task*/
+.task .widget.search form input[type="text"] {
+  border: none;
+  background-color: #ECEDED;
+  height: 40px;
+  width: calc(100% - 80px);
+  float: left;
+  border-radius: 7px;
+}
+.task .widget.search form input[type="submit"] {
+  border: none;
+  height: 40px;
+  background-color: #00A0E1;
+  width: 70px;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+.task .widget.members .head h4 {
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.task .widget.members .content {
+  margin-bottom: 30px;
+}
+.task .widget.members .content .staus span {
+  background-color: #82d082;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+.task .widget.members .frinds-box .frind {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.task .widget.members .frinds-box .frind img {
+  float: left;
+  border-radius: 5px;
+}
+.task .widget.members .frinds-box .frind .info {
+  float: left;
+  margin-left: 10px;
+}
+.task .widget.members .frinds-box .frind h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.task .widget.members .frinds-box .frind span {
+  background-color: #D2E3FF;
+  color: #557BBB;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+/*End Design Task*/
+.task .widget.groups .head h4 {
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.task .widget.groups .content {
+  margin-bottom: 30px;
+}
+.task .widget.groups .content .staus span {
+  background-color: #82d082;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.task .widget.groups .frinds-box .frind {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.task .widget.groups .frinds-box .frind img {
+  float: left;
+  border-radius: 5px;
+}
+.task .widget.groups .frinds-box .frind .info {
+  float: left;
+  margin-left: 10px;
+}
+.task .widget.groups .frinds-box .frind h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.task .widget.groups .frinds-box .frind span {
+  background-color: #D2E3FF;
+  color: #557BBB;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.task .widget.photo .head h4 {
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.task .widget.photo .image-box img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.task .widget.calendar {
+  overflow: hidden;
+}
+.task .widget.calendar .head h4 {
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.task .widget.calendar .fl-right {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #767676
+}
+.task .widget.calendar table {
+  padding: 10px;
+  color: #767676
+}
+.task .widget.calendar table thead {
+  font-weight: bold;
+}
+.task .widget.calendar table thead tr td {
+  padding: 7px;
+}
+.task .widget.calendar table tbody tr td {
+  padding: 7px;
+}
+/*Satrt Center Side */
+.slider img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.panel-box-1 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.panel-box-1 .head {
+  background-color: #F0F0F0;
+  padding: 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.panel-box-1 .content-box {
+  padding: 20px;
+}
+.panel-box-1 .content-box .content {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 20px 0;
+}
+.panel-box-1 .content-box .content .image {
+  float: left;
+  width: 10%;
+}
+.panel-box-1 .content-box .content .image img {
+  border-radius: 5px;
+}
+.panel-box-1 .content-box .content .info {
+  float: left;
+  width: 90%;
+  padding-left: 10px;
+}
+.panel-box-1 .content-box .content .info p {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #838383;
+}
+.panel-box-1 .content-box .content .info p b {
+  color: #000;
+}
+.panel-box-1 .content-box button {
+  border: none;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.panel-box-2 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.panel-box-2 .head {
+  background-color: #F0F0F0;
+  padding: 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.panel-box-2 .content-box {
+  padding: 20px;
+}
+.panel-box-2 .content-box .content {
+  overflow: hidden;
+}
+
+.panel-box-2 .content-box .content .image {
+  float: left;
+  width: 20%;
+}
+.panel-box-2 .content-box .content .image img {
+  border-radius: 5px;
+  width: 100%;
+}
+.panel-box-2 .content-box .content .info {
+  float: left;
+  width: 80%;
+  padding-left: 10px;
+}
+.panel-box-2 .content-box .content .info h4 {
+  margin-bottom: 5px;
+}
+.panel-box-2 .content-box .content .info p {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #838383;
+}
+.panel-box-3 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.panel-box-3 .head {
+  background-color: #F0F0F0;
+  padding: 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.panel-box-3 .content-box {
+  padding: 20px;
+}
+.panel-box-3 .content-box .content {
+  overflow: hidden;
+}
+.panel-box-3 .content-box .content .image {
+  float: left;
+}
+.panel-box-3 .content-box .content .image img {
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+}
+/*Start Right Side*/
+.widget.login {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.widget.login h4 {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.widget.login form input[type="text"], .widget.login form input[type="password"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #ECEDED;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.widget.login form button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #00a0e1;
+  height: 40px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.widget.login p {
+  float: right;
+  font-size: 14px;
+}
+.widget.login p i {
+  margin-right: 2px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 50%;
+  font-size: 9px;
+}
+.widget.statistics h4 {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.widget.statistics ul {
+  list-style: none;
+  overflow: hidden;
+}
+.widget.statistics ul li {
+  background-color: #c12f6c;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 6px;
+}
+.widget.statistics ul li i {
+  margin-right: 10px;
+}
+.widget.statistics ul li span {
+  float: right;
+}
+.widget.online h4 {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.widget.online p {
+  margin-bottom: 10px;
+}
+.widget.online-2 h4 {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.widget.online-2 p {
+  margin-bottom: 20px;
+  line-height: 1.7
+}
+.widget.online-2 p span {
+  color: #838383
+}
+/*End Center Side */
